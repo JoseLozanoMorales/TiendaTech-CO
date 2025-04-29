@@ -2,7 +2,7 @@ const url = new URL(window.location.href);
 const tema = url.searchParams.get('tema');
 const header = document.getElementById("header");
 if(tema == '0'){
-    header.style.backgroundColor = "#009fff";
+    header.style.backgroundColor = "#009fff"
 }
 if(tema == '1'){
     header.style.backgroundColor = "#ff006a";
